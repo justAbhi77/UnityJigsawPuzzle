@@ -48,6 +48,8 @@ public class Tile
     public int XIndex = 0;
     public int YIndex = 0;
 
+    public static TileSorting TileSorting = new();
+
     public void SetCurveType(Direction dir, PosNegType type)
     {
         _mCurveTypes[(int)dir] = type;
